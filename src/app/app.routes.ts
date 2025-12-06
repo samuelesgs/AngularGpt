@@ -19,7 +19,6 @@ export const routes: Routes = [
             },
             {
                 path: 'pros-cons',
-                //src\app\presentation\pages\porpsConsPage\porpsConsPage.ts
                 loadComponent: () =>
                     import('./presentation/pages/porpsConsPage/porpsConsPage'),
                 data: {

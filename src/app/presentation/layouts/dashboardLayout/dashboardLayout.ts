@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
   selector: 'app-dashboard-layout',
   standalone: true,
   imports: [CommonModule, RouterModule],
+  styleUrl: './dashboardLayout.css',
   templateUrl: './dashboardLayout.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
