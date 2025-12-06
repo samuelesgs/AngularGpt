@@ -2,9 +2,10 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-assistant-page',
+  selector: 'app-text-to-audio-page',
   imports: [CommonModule],
-  templateUrl: './assistantPage.html',
+  standalone : true,
+  templateUrl: './textToAudioPage.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AssistantPage { }
+export default class TextToAudioPage {}

@@ -7,4 +7,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   templateUrl: './translatePage.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TranslatePage { }
+export default class TranslatePage { }

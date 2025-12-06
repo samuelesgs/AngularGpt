@@ -2,9 +2,9 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-pros-const-stream-page',
+  selector: 'app-assistant-page',
   imports: [CommonModule],
-  templateUrl: './prosConstStreamPage.html',
+  templateUrl: './assistantPage.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ProsConstStreamPage { }
+export default class AssistantPage { }

@@ -7,4 +7,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   templateUrl: './imageTunningPage.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ImageTunningPage { }
+export default class ImageTunningPage { }

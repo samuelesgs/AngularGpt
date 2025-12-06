@@ -2,9 +2,9 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-image-generation-page',
+  selector: 'app-pros-const-stream-page',
   imports: [CommonModule],
-  templateUrl: './imageGenerationPage.html',
+  templateUrl: './prosConstStreamPage.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ImageGenerationPage { }
+export default class ProsConstStreamPage { }

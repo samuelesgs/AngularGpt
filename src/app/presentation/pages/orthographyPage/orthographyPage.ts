@@ -2,9 +2,9 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-audio-text-page',
+  selector: 'app-orthography-page',
   imports: [CommonModule],
-  templateUrl: './audioTextPage.html',
+  templateUrl: './orthographyPage.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AudioTextPage { }
+export default class OrthographyPage { }

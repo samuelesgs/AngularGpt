@@ -2,9 +2,9 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-porps-cons-page',
+  selector: 'app-audio-text-page',
   imports: [CommonModule],
-  templateUrl: './porpsConsPage.html',
+  templateUrl: './audioTextPage.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PorpsConsPage { }
+export default class AudioTextPage { }
